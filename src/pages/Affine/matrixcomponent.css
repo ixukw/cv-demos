@@ -1,0 +1,32 @@
+.matrix-component {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.matrix-row {
+    display: flex;
+    flex-direction: row;
+}
+.matrix-num {
+    padding: 5px;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    height: 25px;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    border: 0;
+    margin: 1px;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
